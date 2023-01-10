@@ -1,0 +1,30 @@
+ .searchDiv{
+    margin: auto;
+    margin-top: 30px;
+display: flex;
+justify-content: center;
+
+
+ }
+ #search{
+
+width: 350px;
+height: 40px;
+ background-color: white;
+ border: none;
+ border-top-left-radius: 15px;
+ border-bottom-left-radius: 15px;
+ text-align: center;
+
+ }
+ #searchLogo{
+    color: goldenrod;
+ }
+ #searchBtn{
+    background-color: white;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

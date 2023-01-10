@@ -1,0 +1,115 @@
+
+.cardDiv{
+    position: relative;
+    margin-top: 50px;
+    width: 3500px;
+    height: 460px;
+    border-radius: 15px;
+    border: 1px solid rgb(104, 104, 104);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: 0.2s;
+ }
+ img{
+     width: 100%;
+     height: 170px;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     object-fit: contain;
+  
+ 
+ }
+ .cardDiv:hover{
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     transform:scale(99.9%);
+     -webkit-transform:scale(99.9%);
+     -moz-transform:scale(99.9%);
+     -ms-transform:scale(99.9%);
+     -o-transform:scale(99.9%);
+     cursor: pointer;
+}
+ .cards{
+     width: 300px;
+
+     margin: auto;
+     flex-wrap: wrap;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+ }
+ .salam{
+     width: 70%;
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ #Name{
+    padding-top: 10px;
+    text-align: center;
+  
+    background: -webkit-linear-gradient(rgb(13, 13, 13), rgb(148, 120, 43));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .detail{
+    padding-top:5px;
+    padding-left: 15px;
+color: rgb(190, 190, 190);
+    font-size: 20px;
+ }
+ 
+ .lgShadow {
+    background: rgb(119, 127, 114);
+    padding: 1rem;
+    top: 50px;
+    position: relative;
+  
+}
+/* pseudo-class for making gradient shadow. */
+  
+.lgShadow::after {
+    content: "";
+    position: absolute;
+    inset: -.625em;
+    background: linear-gradient(to bottom right,
+        rgb(118, 120, 118), rgb(156, 143, 77));
+    filter: blur(2.5em);
+    z-index: -1;
+}
+
+#price{
+    color: rgb(197, 177, 128);
+}
+#Fav{
+ margin-top: 20px;
+ border-radius: 15px;
+ background-color: rgb(102, 105, 74);
+ border: 1px solid rgb(108, 105, 48);
+ color: goldenrod;
+ position: absolute;
+ padding: 10px;
+ right: 8%;
+ bottom:5%;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ transition: 0.4s;
+ -webkit-transition: 0.4s;
+ -moz-transition: 0.4s;
+ -ms-transition: 0.4s;
+ -o-transition: 0.4s;
+}
+#Fav:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform:scale(98%) ;
+  -webkit-transform:scale(98%) ;
+  -moz-transform:scale(98%) ;
+  -ms-transform:scale(98%) ;
+  -o-transform:scale(98%) ;
+}
